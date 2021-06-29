@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  background: linear-gradient(
+    to bottom,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.menu-list {
+  list-style: none;
+  font-size: 10vw;
+  color: #eeeeee;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  /* outline: 2px solid #8a2387; */
+  text-align: center;
+}
